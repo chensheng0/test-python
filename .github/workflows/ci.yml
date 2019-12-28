@@ -24,3 +24,6 @@ jobs:
       run: |
         pip2 install grpcio protobuf pyyaml gevent grpcio-tools
         pip3 install grpcio protobuf pyyaml
+    - name: test docker
+      run: |
+        docker version
