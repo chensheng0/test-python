@@ -20,3 +20,7 @@ jobs:
       run: |
         pip2 -V
         pip3 -V
+    - name: Install Dependencies
+      run: |
+        pip2 install grpcio protobuf pyyaml gevent grpcio-tools
+        pip3 install grpcio protobuf pyyaml
